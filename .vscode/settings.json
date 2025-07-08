@@ -1,0 +1,5 @@
+{
+  "animations.CursorAnimation": true,
+  "animations.UseCursorColorForCursorAnimation": true,
+  "animations.Active": "Indent"
+}
