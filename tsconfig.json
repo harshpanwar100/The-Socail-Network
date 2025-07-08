@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "jsx": "react-native",
+    "module": "es2015", // Ensure this is set to 'es2015' or 'preserve' for 'bundler' to work
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["**/*", "nativewind-env.d.ts"],
+  "exclude": ["node_modules"],
+  "extends": "expo/tsconfig.base"
+}
